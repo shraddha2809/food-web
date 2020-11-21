@@ -1,0 +1,535 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{background-image: url(./image/hero_bg.jpg);
+
+    background-size: cover;
+    
+    background-attachment: fixed;
+    background-color:#9c9c9c;
+    background-blend-mode: multiply;
+    /*color: var(--clr-light);*/
+    
+    background-repeat: no-repeat;
+    text-align: center;
+    flex-wrap: wrap;
+
+    color: black;
+}
+.box{ padding: 2%;
+    color: rgb(211, 211, 211);
+    width: 100%;
+    height: fit-content;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+}
+.center{
+    padding: 1%;
+}
+.bar{
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.meal{
+    margin-right: auto;
+}
+.row{
+    padding: 6%;
+    color: rgb(133, 133, 133);
+}
+.row:hover{
+    color: white;
+}
+.box2{padding: 7%;
+    text-align: center;
+}
+.span1{border-radius: 100px;
+    padding: 15px;
+    background-color:  rgb(255, 91, 41);
+    font-size:12px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.span-book{border-radius: 100px;
+    padding: 15px;
+    background-color:  rgb(255, 91, 41);
+    font-size:12px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.p2{
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.p1{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.sm{margin-left: auto;
+    
+}
+.box3{
+    display: flex;
+    
+}
+.can{
+
+}
+.icon{
+    background-color: white;
+    color:  rgb(255, 91, 41);;
+    padding: 14px;
+    border-radius: 50%;
+    
+}
+.center1{
+    padding-left: 12%;
+    margin-left: auto;
+    font-size: 10px;
+  
+}
+.rightbox{
+    align-items: center;
+
+}
+.food{
+    width: 25px;
+    margin-right: 20px;
+    
+}
+.active{font-size: 20px;
+    padding: 35px;
+
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.spa{
+    padding: 21px;
+    width: 100%;
+}
+.spa:hover{
+      
+    background-color: white;
+    border-radius: 100px;
+}
+.ul{
+    list-style: none;
+}
+.colum{padding: 14px;
+    display: flex;
+    justify-content: center;
+}
+.second-container{padding: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mainbox{
+   background-color:#fee2b3;
+}
+.food2{/*padding: 10px;*/
+    width: 80%;
+    box-shadow: 0 15px 30px 0 #ebca92;
+    
+}
+.test{
+    /*padding: 5px;*/
+}
+.text-primary{
+    color: rgb(255, 91, 41);
+}
+.subtitle{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: gray;
+    margin: 3px;
+}
+.h3{
+    font-size: 35px;
+    
+}
+.mb-4{padding: 0%;
+    
+}
+.rightbox{
+    /*padding: 20px;
+    margin-left: 20px;*/
+    flex-wrap: wrap;
+    position: relative;
+    left: 120px;
+    top:20px
+}
+.leftbox{
+    /*margin: 10px;*/
+}
+.firstbox{
+    
+}
+.bottom-box{
+    text-align: center;
+}
+.box-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding: 5%;
+}
+.box-row{border: 1px solid;margin: 10px;height: 173px;
+    border-color: rgb(194, 194, 194);
+
+    display: flex;
+}
+.box-row img{
+    width: 100px; height: 100px;
+    text-align: center;
+    padding: 5%;
+}
+.box-row p{
+    position: relative;
+    top: 30%;
+    padding: 20px;
+    font-size: 20px;
+}
+.box-row:hover{
+    background-color: white;
+}
+.main{background-color: rgba(252, 200, 112, 0.9);
+    /* background-image: url(./image/hero_bg_2.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    
+    
+     background-blend-mode: multiply; 
+    color: black;
+    
+
+}
+.perent-3{padding: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.childe{margin: 10px;
+    padding: 10px;
+
+    width: 650px;
+}
+.childe-1 img{
+    width: 100px;
+    border-radius: 100px;
+}
+.div1{
+    padding: 10px;
+}
+
+.col2 img{
+    border-radius: 10px;
+}
+.col1 img{
+    border-radius: 10px;
+}
+.span1:hover{
+    background-color: rgb(255, 106, 52);
+}
+.birthday-card{padding: 5%;background-color:#fee2b3;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.child-box-1{width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.child-box-2{
+    display: flex;
+    justify-content: center;
+
+
+}
+.CARD-1{
+    padding: 3%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+
+.ul{
+    list-style-type: square;
+    font-size: 20px;
+}
+.ul li{
+    padding: 10px;
+}
+.one1 img{
+    width:100%;
+}
+.two-box{margin: 2%;
+    padding: 3%;
+
+    
+}
+.one2{
+    text-align: start;
+}
+.h4{
+    font-size: 32px;
+}
+.main-footer{
+    background-color: #645f56;
+}
+
+.footer{padding: 4%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.fot-1{
+    /* width: 299px;*/margin: 37px; 
+}
+.fot-1 li{
+    color: rgb(175, 175, 175);
+    font-size:15px;
+    padding: 10px;
+    position: relative;
+    right: 5px;
+}
+.fot-1 ul{list-style: none;
+    font-size: 18px;color: white;font-family: initial;
+    padding: 10PX;
+}
+.fot-1 .button{
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding: 6px;
+    border: none;
+}
+/* .ul-footer-2 li{
+    position: relative;
+    right: 75px;
+    top: 28px;
+} */
+.fot-1 .button:hover{
+    background-color: rgb(255, 106, 52);
+}
+.li:hover{
+    color: rgb(219, 219, 219);
+}
+.center .H1{
+    font-family: initial; 
+    font-size: 90px;
+    letter-spacing: 1px;
+}
+.ul-footer-2
+{display: flex;}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1506px){
+    .second-container{
+        display: block;
+
+
+    }
+    .dropbtn{
+        display: none;
+    }
+    /* .top-ul{
+        display: flex;
+        justify-content: center;
+        
+    }
+     */
+    
+}
+@media(max-width:2000px)
+{
+    .dropbtn{
+        display: none;
+    } 
+}
+@media(max-width:1307px){
+    .child-box-2{
+        display: block;
+
+    }
+}
+@media (max-width:600px){
+/* .active{
+        padding: 4px;
+    } */
+    
+    .footer{
+        display: block;
+    }
+    .footer .li{
+        display: block;
+    }
+
+    .child-box-2{
+        display: block;
+
+    }
+    
+    
+}
+@media (max-width:856px){
+
+    .child-box-2{
+        display: block;
+    }
+}
+@media (max-width:930px){
+    .rightbox{  position: inherit;
+        right: 120px;
+    }.center p{
+        padding: 2%;
+    }
+    .icon {padding: 5px;
+        font-size: 10px;
+
+    }
+
+
+}
+@media (max-width:399px)
+{
+    .center .H1{
+        font-size: 50px;
+    }
+    .center p{
+        padding: 5%;
+    }
+}
+@media (max-width:791px)
+{.col3{
+    padding:5% ;
+}
+.book{
+    padding: 10px;
+}
+    .bar{
+        display: none;
+    }
+    
+    .nav-bar{
+        display: block;
+    }
+.dropbtn{
+    display: table-column-group;
+}
+.book{
+    display: none;
+}
+
+}
+@media (max-width:290px)
+{
+    .ul-footer-2 li{
+    
+    }
+}
+
+
+.dropbtn a{
+   text-decoration: none;
+   color: white;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    /* position: absolute; */
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+   .dropdown-content a:hover {background-color: #f1f1f1} 
+  .dropbtn:hover{
+      display: none;
+
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  } */
+
+.food2:hover{
+    transition-property: image;
+    transition-duration: 7s;
+    transform:scaleZ(0.1);
+    transition-duration: 3s;
+    
+}
+
+/* .food2{
+    animation: animation 6s linear infinite;
+  
+}
+@keyframes animation{
+    0%{
+       
+    }
+    20%{
+
+    }
+    40%{
+
+    }
+} */
+
+  .food2{
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}
+  
