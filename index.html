@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-
+<script src="./index.js"></script>
 </head>
 <body>
     <div class="container">
        <div class="box1 box">
            <div class="meal" style="font-size: 25px;"><b>Meal.</b></div>
-           <div class="bar">
+           <div class="bar" id="bar2">
                <div class="row  home">Home</div>
                <div class="row menu">Menu</div>
                <div class="row  event">Events</div>
@@ -25,15 +25,15 @@
            <div class="book"><span class="span-book" ><b>BOOK A TABLE</b></span></div>
            
            <div class="dropdown">
-            <button class="dropbtn"><a href="#bar2"><i class="fa fa-bars" aria-hidden="true"></i></a></button>
-            <div class="dropdown-content">
+            <button class="dropbtn" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></button>
+            <div id="myDropdown" class="dropdown-content">
             <a href="#">Home</a>
             <a href="#">Menu</a>
             <a href="#">Events</a>
             <a href="#">Gallery</a>
             <a href="#">About</a>
             <a href="#">Contact</a>
-            <a href="#"><span class="-book" style="padding: 5px; background-color: gray; border-radius: 100px;"><b>BOOK A TABLE</b></span></a>
+            <a href="#"><!--a href="./index1.html"--><span class="-book" style="padding: 5px; background-color: gray; border-radius: 100px;"><b>BOOK A TABLE</b></span></a>
             </div>
           </div>
 
@@ -50,10 +50,10 @@
        <div class="box3 box">
            <div class="can center1"><p>scroll down</p></div>
            <div class="can sm">
-               <span class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></span>
-               <span class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></span>
-               <span class="icon"><i class="fa fa-whatsapp" aria-hidden="true"></i></span>
-               <span class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+               <button class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+               <button class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></button>
+               <button class="icon"><i class="fa fa-whatsapp" aria-hidden="true"></i></button>
+               <button class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></button>
             </div>
        </div>
     </div>
@@ -120,7 +120,8 @@
     </div>
 </div>
 </div>
-<div class="main">
+<div class="top">
+<div class="main main-1">
  <div class="perent-3">
      <div class="childe childe-1">
          <div class="div1"><p style="font-size: 14px; color: gray;">TESTIMONIALS</p></div>
@@ -162,7 +163,7 @@
            
      </div>
  </div>
-
+</div>
 
    <div class="birthday-card">
        <div class="birthday-child child-box-1">
@@ -187,6 +188,7 @@
        </div>
        
    </div>
+   <div class="main main-1">
    <div class="CARD-1">
        <div class="birthday-child child-box-1">
            <p class="subtitle">BOOK A TABLE</p>
@@ -197,6 +199,7 @@
         <span class="span1">BOOK A TABLE</span>
     </div>
    </div>
+   
 </div>
 
 <div class="main-footer">
