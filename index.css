@@ -384,7 +384,9 @@
 .ul-footer-2
 {display: flex;}
 
-
+.icon:hover{color: black;
+    background-color: rgb(255, 91, 41);;
+}
 
 
 
@@ -462,9 +464,10 @@
 }
 @media (max-width:399px)
 {
-    .center .H1{
+    .center .H1{font-family: initial;
         font-size: 50px;
     }
+    
     .center p{
         padding: 5%;
     }
@@ -472,6 +475,9 @@
 @media (max-width:791px)
 {.col3{
     padding:5% ;
+}
+.can p{
+    display: none;
 }
 .book{
     padding: 10px;
